@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importsNotUsedAsValues": "error",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "target": "es2022",
+    "module": "es2022",
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "useDefineForClassFields": false
+  },
+  "include": [
+    "src/main/javascript",
+    "src/test/javascript",
+    "node_modules/lit-scss-loader/types.d.ts"
+  ],
+}

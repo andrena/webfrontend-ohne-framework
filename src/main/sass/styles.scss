@@ -1,0 +1,56 @@
+body {
+  margin: 3rem;
+  background-color: #333;
+  color: white;
+  font-family: sans-serif;
+}
+
+.links {
+  margin-top: 2rem;
+
+  a {
+    color: white;
+  }
+}
+
+.example-block {
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #555;
+
+  & + .example-block {
+    margin-top: 1rem;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+hello-simple {
+  display: block;
+
+  & + hello-simple {
+    margin-top: 1rem;
+  }
+
+  span {
+    display: block;
+    width: 200px;
+    padding: 1rem;
+    background-color: lightgray;
+    color: black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+hello-shadow + hello-shadow {
+  margin-top: 1rem;
+}
+
+hello-lit + hello-lit {
+  margin-top: 1rem;
+}

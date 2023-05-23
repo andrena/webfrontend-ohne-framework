@@ -1,0 +1,14 @@
+:host {
+  display: block
+}
+
+span {
+  display: block;
+  width: 200px;
+  padding: 1rem;
+  background-color: lightgray;
+  color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}

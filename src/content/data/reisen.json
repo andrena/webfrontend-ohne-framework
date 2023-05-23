@@ -1,0 +1,30 @@
+[
+  {
+    "id": "r1",
+    "name": "Ans Meer",
+    "description": "Sommer, Sonne, Strand, Schwimmen, Sonnenbrand!",
+    "price": 850,
+    "imgSrc": "images/meer.jpg"
+  },
+  {
+    "id": "r2",
+    "name": "In die Berge",
+    "description": "Schnee, Hütten, Sonnenbrand, Kühe!",
+    "price": 900,
+    "imgSrc": "images/berge.jpg"
+  },
+  {
+    "id": "r3",
+    "name": "Nach Karlsruhe!",
+    "description": "Baustellen, Baustellen, Baustellen!",
+    "price": 380,
+    "imgSrc": "images/stadt.jpg"
+  },
+  {
+    "id": "r4",
+    "name": "Nach Buxtehude!",
+    "description": "Diese Reise sollte nicht angezeigt werden",
+    "price": 500,
+    "imgSrc": "images/stadt.jpg"
+  }
+]
